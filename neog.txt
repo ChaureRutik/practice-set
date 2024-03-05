@@ -1,0 +1,23 @@
+a1.4cw
+https://replit.com/@chaurerutik2002/A14CW#index.js
+a1.4 hw1
+https://replit.com/@chaurerutik2002/A14HW1#index.js
+a1.4hw2
+https://replit.com/@chaurerutik2002/A14HW2#index.js
+a1exercise1
+https://replit.com/@chaurerutik2002/A1Exercise1#index.js
+a1exercise2
+https://replit.com/@chaurerutik2002/A1Exercise2#index.js
+
+https://replit.com/@chaurerutik2002/A1Assignment#index.js
+
+
+
+
+let watchReleaseYear=2021
+let watchSize="L"
+let watchBrand="Apple"
+let currentYear=2024
+let applicableYear=watchReleaseYear-currentYear
+let isDiscountApplicable=applicableYear<=1&&watchSize==="M"||watchSize==="L"&&watchBrand==="Apple"||watchBrand==="Samsung"
+console.log("Is the discount applicable:",isDiscountApplicable)
